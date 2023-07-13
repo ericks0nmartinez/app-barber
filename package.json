@@ -45,6 +45,9 @@
       "last 1 safari version"
     ]
   },
+   "engines": {
+    "node": "18"
+  },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
     "@types/yup": "^0.28.3",
