@@ -33,7 +33,7 @@ const Auth: React.FC = () => {
     try {
       if (inputPhone !== '' && inputPassword !== '') {
         const response = await api.get(
-          `professional/${inputPhone}/${inputPassword}`,
+          `barber-professional/${inputPhone}/${inputPassword}`,
         )
 
         if (response.data !== 0) {
